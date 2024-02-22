@@ -1,0 +1,55 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="cardvp">
+        <h1>Cards</h1>
+        <h3>Q & A</h3>
+    </div>
+    <div class="card-pic">
+        <aside>
+            <a href="/paycard"><h2>Virtual Card</h2></a>
+            <a href="/physicalcard"><h2>Physical Card</h2></a>
+        </aside>
+        <div class="only">
+            <img src="images/green-card.png" alt="">
+        </div>
+        
+    </div>
+
+    <div class="dot">
+        <div class="merchants">
+            <aside class="one-1">
+                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+            </aside>
+            <aside class="one-2">
+                <h3>Free Usage</h3>
+                <p> <span style="color:  rgb(43, 167, 60);"> Zero </span> card maintenance fee, <span style="color: rgb(43, 167, 60);"> free </span> ATM withdrawals monthly.</p>    
+            </aside>
+        </div>
+    
+        <button class="delivery-1">Click for home delivery</button>
+        <button class="delivery-2">Pick up from nearby merchants</button>
+    </div>
+    
+
+
+
+
+
+
+    <div class="fixed">
+        <aside class="home-2">
+            <a href="/timeline"><button><i class="fa fa-home" aria-hidden="true"></i></button></a>
+            <h6>Home</h6>
+        </aside>
+        <aside class="card-2">
+            <a href="/paycard"><button><i class="fa fa-credit-card-alt" aria-hidden="true"></i></button></a>
+            <h6>Cards</h6>
+        </aside>
+        <aside class="profile-2">
+            <a href="/profile"><button><i class="fa fa-user" aria-hidden="true"></i></button></a>
+            <h6>Me</h6>
+        </aside>
+    </div>
+
+<%- include('users/footer.ejs') %>

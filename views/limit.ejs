@@ -1,0 +1,40 @@
+<%- include('users/headers.ejs') %>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>My Node.Js App</title>
+</head>
+<body>
+    <div class="back">
+        <a href="/profile"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2 style="margin-left: 100px;">Account Limit</h2>
+    </div>
+    <div class="first-tier">
+        <h3>Tier 1</h3>
+        <div class="limit">
+            <p>Daily Transaction Limit <span class="span-1">$50,000.00</span></p>
+            <p>Maximum Account balance<span class="span-2">$300,000.00</span></p>
+        </div>
+    </div>
+    <div class="first-tier">
+        <h3>Tier 2</h3>
+        <div class="limit">
+            <p>Daily Transaction Limit <span class="span-1">$200,000.00</span></p>
+            <p>Maximum Account balance<span class="span-2">$500,000.00</span></p>
+        </div>
+    </div>
+    <div class="first-tier">
+        <h3>Tier 3</h3>
+        <div class="limit">
+            <p>Daily Transaction Limit <span class="span-1">$5,000,000.00</span></p>
+            <p>Maximum Account balance<span class="span-2">Unlimited</span></p>
+        </div>
+    </div>
+    <div class="upgrade">
+        <button><h3>Upgrade to Tier 2</h3></button>
+    </div>
+
+<%- include('users/footer.ejs') %>

@@ -1,0 +1,58 @@
+<%- include('users/headers.ejs') %>
+
+
+    <div class="logo">
+        <img src="images/logobg.png" alt="">
+        <h2>Pay bank</h2>
+    </div>    
+
+    <div class="signup">
+        <a href="/login"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h1>sign-up</h1>
+        <p>create an account to save for tomorrow</p>
+
+        <form action="/signup" method="post" enctype="multipart/form-data">
+
+            <h6>Name</h6>
+            <input  type="text" placeholder="Your Name" required name="name">
+
+            <h6>Email</h6>
+            <input  type="text"  placeholder="Your Email" name="email" required>
+
+            <h6>Number</h6>
+            <input  type="number"  placeholder="Enter your phone number" name="phone" required>
+
+            <h6>Image</h6>
+            <input type="file" name="image" required>
+
+            <h6>Password</h6>
+            <div class="input-group" >
+                 <input type="password" placeholder="create a Password" id="password-input" name="password">
+                 <span id="password-toggle-button" ><i class="fas fa-eye"></i></span>
+             </div>
+    
+             <aside class="signup-btn">
+                <a href="VC"><button type="submit" value="signup" class="btn-3"><h5>Register</h5></button></a>
+                <p style="margin-top: 70px;">Already have an account?<a href="/login" style="color: rgb(43, 167, 60); margin-left: 10px; font-weight: bolder; text-decoration: none;">Login</a></p>            
+            </aside>    
+        </form>
+
+          <script defer>
+             document.getElementById('password-toggle-button').addEventListener('click', function() {
+             var passwordInput = document.getElementById('password-input');
+             var passwordToggleButton = document.getElementById('password-toggle-button');
+ 
+             if (passwordInput.type === 'password') {
+             passwordInput.type = 'text';
+             this.innerHTML = '<i class = "fas fa-eye">';
+             } else {
+             passwordInput.type = 'password';
+             this.innerHTML = '<i class = "fas fa-eye-slash">';
+             }
+             });         
+          </script>
+          
+    </div>
+
+    
+<% include('users/footer.ejs') %>

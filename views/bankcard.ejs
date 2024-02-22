@@ -1,0 +1,40 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="back">
+        <a href="/profile"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2>Add Card</h2>
+    </div>
+    <div class="add">
+        <div class="card-nav">
+            <aside>
+                <a href="/bankcard"><h2>Bank Card</h2></a>
+                <a href="/bankaccount"><h2>Bank Account</h2></a>    
+            </aside>
+            <p>Please bind your bank card. and provide the BVN linked to it <br>
+            for your Tier upgrade</p>
+        </div>
+        <div class="card-detail">
+            <div class="card-no">
+                <h2>Card Number</h2>
+                <input type="number" placeholder="Enter 16-19 digit card number">
+            </div>
+            <div class="date">
+                <div class="expiry">
+                    <h2>Expiry Date</h2>
+                    <aside><input type="number"> / <input type="number"></aside>    
+                </div>
+                <div class="cvv"> 
+                    <h2>CVV</h2>
+                    <input type="number" placeholder="Enter Card CVV">
+                </div>
+            </div>
+            <div class="pin">
+                <h2>PIN</h2>
+                <input type="number" placeholder="Enter Card PIN">
+            </div>
+        </div>
+        <button>Confirm</button>
+    </div>
+
+<%- include('users/footer.ejs') %>

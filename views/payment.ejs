@@ -1,0 +1,31 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="back">
+        <a href="/setting"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2 style="margin-left: 80px;">Payment Settings</h2>
+    </div>
+
+    <div style="padding-bottom: 465px;" class="setting">
+        <h2 style="color: black;">Payment Pin</h2>
+        <div class="all-in">
+            <div class="flex-me">
+                <h2 >Change Payment Pin</h2>
+                <a href="/changepin"><button style="margin-left: 130px;"><i  class="fa fa-arrow-right" aria-hidden="true"></a></i></a>
+            </div>
+            <div class="flex-me">
+                <h2>Forgot Payment Pin</h2>
+                <a href="/forgotpin"><button style="margin-left: 140px;"><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+            </div>
+        </div>
+        <h2 style="color: black; margin-top: 50px;">Biometric Login</h2>
+        <div class="all-in">
+            <div class="flex-me">
+                <h2>Login With Face ID or Fingerprint</h2>
+                <button style="margin-left: 40px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>    
+        </div>
+
+    </div>
+
+<%- include('users/footer.ejs') %>

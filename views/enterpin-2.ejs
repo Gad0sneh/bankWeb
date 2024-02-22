@@ -1,0 +1,53 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="pin">
+        <a href="/timeline"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h1>Enter pin</h1>
+        <p>Enter pin for transaction and login</p> 
+    </div>
+
+    <div class="container">
+            <div class="input-field">
+                <input type="number" />
+                <input type="number" disabled />
+                <input type="number" disabled />
+                <input type="number" disabled />
+            </div>
+            <a href="/successful"><button class="pin-btn">continue</button></a>
+    </div>
+
+    <script defer>
+        const input = document.querySelectorAll("input")
+        button =  document.querySelectorAll("button");
+
+        input.forEach((input, index1) => {
+            input.addEventListener("keyup", (e) => {
+                const currentInput = input,
+                nextInput = input.nextElementSibling,
+                prevInput = input.previousElementSlibling;
+
+                if(currentInput.value.lenght > 1) {
+                    currentInput.value = ""
+                    return;
+                }
+
+                if (nextInput && nextInput.hasAttribute("disabled") &&currentInput.value !== "") {
+                    nextInput.removeAttribute("disabled");
+                    nextInput.focus()
+                }
+
+                if(e.key === "Backspace") {
+                    Object.keys(input).forEach((input, index2) => {
+                        if(index1  <= index2 && prevInput) {
+                            input.setAttribute("disabled", true);
+                            currentInput.value = ""
+                            prevInput.focus();
+                        }
+                    })
+                }
+            })
+        })
+    </script>    
+
+<%- include('users/footer.ejs') %>

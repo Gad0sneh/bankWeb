@@ -1,0 +1,33 @@
+<%- include('users/headers.ejs') %>
+
+    <div class="logo">
+        <img src="images/logobg.png" alt="">
+        <h2>Pay bank</h2>
+    </div>    
+
+    <div class="login">
+
+
+        <a href="/login"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h1>Forget Password</h1>
+        <% if(typeof message !== "undefined") { %>
+
+            <p style="color: rgb(15, 141, 15);"> <%= message %></p>
+        
+        <% } %>
+
+        <form action="/forgotten" method="post">
+
+            <h6>Email</h6>
+            <input  type="email" name="email" placeholder="Your Email" required>
+
+                <aside class="login-btn">
+                    <a href="/timeline"><button type="submit" class="btn-1"><h5>Send Reset Link</h5></button></a>
+                </aside>
+    
+        </form>
+
+
+
+       
+<%- include('users/headers.ejs') %>

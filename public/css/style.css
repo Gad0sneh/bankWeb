@@ -1,0 +1,2009 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.home{
+    background-color:rgb(43, 167, 60); 
+    width: 100%;
+    height: 100vh;
+}
+
+.home img{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 65px;
+}
+
+.home h3{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.home p{
+    line-height: 25px;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-bottom: -100px;
+    margin-top: 30px;
+}
+
+.home aside{
+    box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px;
+    border-radius: 40px;
+    background-color: rgb(255, 217, 0);
+    padding: 30px;
+    width: 280px;
+    height: 2px;
+    margin-top: 160px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.home aside h6{
+    color: black;
+    font-size: 20px;
+    margin-left: 1px;
+    width: 350px;
+    margin-top: -6px;
+}
+
+.home aside button{
+    background-color:rgb(43, 167, 60); 
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-right: -20px;
+    font-size: 15px;
+}
+
+.home aside button i{
+    /* margin-top: -70px; */
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+    right: 6px;
+}
+
+.home .logo{
+    display: flex;
+}
+
+.home .logo img{
+    width: 70px;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+
+.home .logo h2{
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 40px;
+    height: 4.5vh;
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+
+.logo h2{
+    color: rgb(15, 141, 15);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+
+.login{
+    margin-left: 20px;
+    color: black;
+    margin-top: -20px;
+}
+
+.login button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login button i{
+    color: black;
+}
+
+.login h1{
+    color: black;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.login p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.login h6{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login input{
+    padding: 17px;
+    width: 370px;
+    border: none;
+    background-color: aliceblue;
+    color: #000;
+    font-size: 20px;
+}
+
+.input-group i{
+    color: #000;
+}
+
+
+
+.input-group span i {
+    cursor: pointer;
+    position: relative;
+    color: #000;
+    z-index: 2;
+    top: -30px;
+    left: 370px;
+}
+
+
+
+.login h5{
+    color: rgb(15, 141, 15);
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.login-btn .btn-1{
+    background-color:rgb(43, 167, 60) ;
+    padding: 10px 60px;
+    width: 385px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.login-btn .btn-1 h5{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.login .btn-2 p {
+    text-align: center;
+}
+
+.login .btn-2 p a{
+    color:rgb(43, 167, 60) ;
+}
+
+.signup{
+    margin-left: 20px;
+    color: black;
+}
+
+.signup button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.signup button i{
+    color: black;
+}
+
+.signup  h1{
+    color: black;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.signup  p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.signup  h6{
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.signup  input{
+    padding: 17px;
+    width: 370px;
+    border: none;
+    background-color: aliceblue;
+    color: #000;
+    font-size: 20px;
+}
+
+.signup .input-group span{
+    color: #000;
+    position: relative;
+    left: 5px;
+    top:  -5px;
+}
+
+.signup h5{
+    color: rgb(15, 141, 15);
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.signup-btn .btn-3{
+    background-color:rgb(43, 167, 60) ;
+    padding: 10px 60px;
+    width: 385px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.signup-btn .btn-3 h5{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.signup-btn .btn-4 p {
+    text-align: center;
+}
+
+.signup-btn .btn-4 p a h5{
+    color:rgb(43, 167, 60) ;
+}
+
+.FP{
+    margin-left: 20px;
+    color: black;
+}
+
+.FP button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.FP button i{
+    color: black;
+}
+
+.FP  h1{
+    color: black;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.FP p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.FP .div-1{
+    display: flex;
+    margin-top: 40px;
+    border: 2px solid rgb(43, 167, 60) ;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    border-radius: 7px;
+}
+
+.FP .div-1 aside i{
+    color: black;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.FP .div-1 h6{
+    color: black;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.FP .div-1 p{
+    margin-left: -40px;
+}
+
+.FP .div-2{
+    display: flex;
+    margin-top: 40px;
+    border: 2px solid rgb(43, 167, 60) ;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    border-radius: 7px;
+}
+
+.FP .div-2 aside i{
+    color: black;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.FP .div-2 h6{
+    color: black;
+    margin-left: 30px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.FP .div-2 p{
+    margin-left: -150px;
+    margin-top: 25px;
+}
+
+.VC{
+    margin-left: 20px;
+    color: black;
+}
+
+.VC button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.VC button i{
+    color: black;
+}
+
+.VC  h1{
+    color: black;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.VC p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.VC h6{
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    background-color: #4070f4;
+    background-color: #fff;
+    padding: 30px 65px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba (0, 0, 0, 0.1);
+    
+}
+
+:where(.container, form, .input-field){
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container header{
+    height: 65px;
+    width: 65px;
+    background-color: #4070f4;
+    color: #fff;
+    font-size: 2.5rem;
+    border-radius: 50%;
+}
+
+.container h4{
+    font-size: 1.125rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.input-field{
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.input-field input{
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 30px;
+    background-color:  aliceblue;
+    margin-left: 20px;
+    color: black;
+}
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button{
+    display: none;
+}
+
+.continue-btn{
+    margin-top: 25px;
+    width: 70%;
+    background: rgb(43, 167, 60);
+    color: #fff;
+    border: none;
+    padding: 9px;
+    font-size: 1rem;
+    border:none;
+    border-radius: 6px;
+    margin-left: 45px;
+}
+
+.pin{
+    margin-left: 20px;
+    color: black;
+}
+
+.pin button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pin button i{
+    color: black;
+}
+
+.pin  h1{
+    color: black;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.pin p{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.pin h6{
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.pin-btn{
+    margin-top: 25px;
+    width: 70%;
+    background: rgb(43, 167, 60);
+    color: #fff;
+    border: none;
+    padding: 9px;
+    font-size: 1rem;
+    border:none;
+    border-radius: 6px;
+    margin-left: 45px;
+}
+
+.timeline{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.timeline nav{
+    display: flex;
+}
+
+.timeline nav h2{
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.timeline nav i{
+    color: #000;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.timeline nav img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.transfer{
+    background-color:  rgb(43, 167, 60);
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 350px;
+    padding: 20px ;
+    border-radius: 6px;
+}
+
+.transfer .bank-eye{
+    display: flex;
+}
+
+.transfer .bank-eye label{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.transfer .bank-eye button{
+    border: none;
+    background: none;
+}
+
+.transfer .bank-balance{
+    display: flex;
+    margin-top: 30px;
+}
+
+.transfer .bank-balance h1{
+    font-size: 40px;
+}
+
+.transfer .bank-balance i{
+    margin-top: 16px;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.transfer .bank-balance h4{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.choose{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    background-color: #fff;
+    border-radius: 7px;
+    width: 330px;
+}
+
+.choose .pay{
+    margin-right: 85px;
+}
+
+.choose .pay i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.choose .pay h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+    color: #000;
+}
+
+.choose .send{
+    margin-right: 80px;
+}
+
+.choose .send i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.choose .send h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -3px;
+    color: #000;
+}
+
+
+.bank-withdraw{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 7px;
+    width: 330px;
+    box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px;
+}
+
+.bank-withdraw .pay{
+    margin-right: 85px;
+}
+
+.bank-withdraw .pay i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-withdraw .pay h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+    color: #000;
+}
+
+.bank-withdraw .send{
+    margin-right: 80px;
+}
+
+.bank-withdraw .send i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-withdraw .send h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -3px;
+    color: #000;
+}
+
+.bank-withdraw .remove i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.bank-withdraw .remove h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+    color: #000;
+}
+
+.block{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 7px;
+    width: 330px;
+    box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px;
+}
+
+.bank-links{
+    display: flex;
+}
+
+.bank-links .data{
+    margin-right: 85px;
+}
+
+.bank-links .data i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-links .data h6{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+    margin-left: 7px;
+}
+
+.bank-links .airtime{
+    margin-right: 80px;
+}
+
+.bank-links .airtime i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-links .airtime h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -5px;
+    color: #000;
+}
+
+.bank-links .betting i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.bank-links .betting h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+    color: #000;
+}
+
+.bank-links-2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.bank-links-2 .subscribe{
+    margin-right: 85px;
+}
+
+.bank-links-2 .subscribe i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-links-2 .subscribe h6{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+    margin-left: -5px;
+}
+
+.bank-links-2 .deals{
+    margin-right: 80px;
+}
+
+.bank-links-2 .deals i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+
+.bank-links-2 .deals h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -5px;
+    color: #000;
+}
+
+.bank-links-2 .health i{
+    color:  rgb(43, 167, 60);
+    background-color:  aliceblue;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.bank-links-2 .health h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -10px;
+    color: #000;
+}
+
+.fixed{
+    background-color: #fff;
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    top: 850px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px;
+}
+
+.fixed a{
+    padding: 9px 9px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+.fixed a:hover{
+    background:  rgb(43, 167, 60);
+    transition: .5s;
+}
+
+
+.fixed .home-2{
+    margin-right: 130px;
+    margin-left: 10px;
+}
+
+.fixed .home-2 i{
+    font-size: 25px;
+    color: rgb(222, 232, 240);
+} 
+
+.fixed .home-2 button{
+    border: none;
+    background: none;
+}
+
+.fixed .home-2 h6{
+    color:  rgb(43, 167, 60);
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.fixed .card-2{
+    margin-right: 130px;
+}
+
+.fixed .card-2 i{
+    font-size: 25px;
+    color: rgb(222, 232, 240);
+} 
+
+.fixed .card-2 button{
+    border: none;
+    background: none;
+}
+
+.fixed .card-2 h6{
+    color:  rgb(43, 167, 60);
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+
+.fixed .profile-2 i{
+    font-size: 25px;
+    color: rgb(222, 232, 240);
+} 
+
+.fixed .profile-2 button{
+    border: none;
+    background: none;
+}
+
+.fixed .profile-2 h6{
+    color:  rgb(43, 167, 60);
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.back{
+    display: flex;
+    margin-top: 20px;
+}
+
+.back h2{
+    color: #000;
+    margin-left: 120px;
+}
+
+.back button{
+    font-size: 30px;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.back button i{
+    color: #000;
+}
+
+.recipient{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.recipient h3{
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+.recipient input{
+    background-color: aliceblue;
+    padding: 12px 110px;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+}
+
+.recipient h5{
+    margin-top: 30px;
+    padding: 12px 80px;
+    background-color: rgb(183, 252, 151);
+    width: 228px;
+    color: rgb(39, 175, 61);
+}
+
+.recipient h4{
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+
+.ben{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ben h4{
+    color: #000;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.ben img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.ben aside h4{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.ben aside p{
+    color: #000;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.r-account{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.r-account .account h4{
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.r-account .account input{
+    background-color: aliceblue;
+    padding: 12px 110px;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.r-account .select-bank input{
+    background-color: aliceblue;
+    padding: 12px 110px;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.r-account button{
+    padding: 10px 100px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 15px;
+    margin-left: 80px;
+}
+
+.merchants{
+    display: flex ;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px; */
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    border-radius: 4px;
+}
+
+.merchants .one-1 i{
+    color:  rgb(43, 167, 60);
+    font-size: 35px;
+}
+
+.merchants .one-2 h3{
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.merchants .one-2 p{
+    color: #000;
+    margin-left: 20px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.gados{
+    display: flex ;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* box-shadow: rgba(0, 0, 0,0.15) 1.50px 1.50px 2px; */
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    border-radius: 4px;
+}
+
+.gados .one-1 i{
+    color:  rgb(43, 167, 60);
+    font-size: 35px;
+}
+.gados .one-2 h3{
+    color: #000;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.plans{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.plans nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    margin-left: -20px;
+}
+
+.plans nav ul li{
+    color: #000;
+    list-style: none;
+    display: inline-block;
+}
+
+.plans nav ul li a{
+    color:  rgb(43, 167, 60);
+    position: relative;
+    text-decoration: none;
+}
+
+.plans nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(43, 167, 60);
+    transition: 0.3s;
+}
+
+.plans nav ul li a:hover::after{
+    width: 60%;
+    height: 7px;
+}
+
+.plans .hot .flex-2{
+    display: flex;
+    margin-right: 20px ;
+    margin-top: 20px;
+}
+
+.plans .hot .flex-2 .two-1{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 99px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.plans .hot .flex-2 .two-1 h1{
+    color: #000000;
+    margin-left: 5px;
+}
+
+.plans .hot .flex-2 .two-1 p{
+    color: #575757;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.plans .hot .flex-2 .two-1 h5{
+    font-size: 17px;
+    color:  rgb(43, 167, 60);
+    margin-left: 10px;
+}
+
+.plans .hot .flex-3{
+    display: flex;
+    margin-right: 20px ;
+    margin-top: 20px;
+}
+
+.plans .hot .flex-3 .two-1{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 99px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.plans .hot .flex-3 .two-1 h1{
+    color: #000000;
+    margin-left: 3px;
+}
+
+.plans .hot .flex-3 .two-1 p{
+    color: #575757;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.plans .hot .flex-3 .two-1 h5{
+    font-size: 17px;
+    color:  rgb(43, 167, 60);
+}
+
+.plans .hot .flex-4{
+    display: flex;
+    margin-right: 20px ;
+    margin-top: 20px;
+}
+
+.plans .hot .flex-4 .two-1{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 99px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.plans .hot .flex-4 .two-1 h1{
+    color: #000000;
+    margin-left: 3px;
+}
+
+.plans .hot .flex-4 .two-1 p{
+    color: #575757;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.plans .hot .flex-4 .two-1 h5{
+    font-size: 17px;
+    color:  rgb(43, 167, 60);
+}
+
+.plans .hot .flex-5{
+    display: flex;
+    margin-right: 20px ;
+    margin-top: 20px;
+}
+
+.plans .hot .flex-5 .two-1{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 99px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.plans .hot .flex-5 .two-1 h1{
+    color: #000000;
+    margin-left: 5px;
+}
+
+.plans .hot .flex-5 .two-1 p{
+    color: #575757;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.plans .hot .flex-5 .two-1 h5{
+    font-size: 17px;
+    color:  rgb(43, 167, 60);
+}
+
+.amount .number {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.amount .number input{
+    color: #000;
+    padding: 10px 70px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.amount .number i{
+    color: #fff;
+    font-size: 20px;
+    background-color:  rgb(43, 167, 60);
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.plans h2{
+    color: #000;
+    margin-top: 20px;
+}
+
+
+.amount .voucher{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    padding-top: 10px;
+    width: 290px;
+    background-color: rgb(183, 252, 151);
+
+}
+
+.amount .voucher h2{
+    font-size: 23px;
+    margin-left: 30px;
+    color: rgb(39, 175, 61);
+}
+
+.amount .voucher p{
+    margin-left: 20px;
+    margin-top: 6px;
+    color: #333;
+    font-size: 12px;
+}
+
+.amount .pay{
+    margin-left: 20px;
+    margin-top: 55px;
+}
+
+.amount .pay input{
+    color: #000;
+    padding: 15px 70px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.amount .pay button{
+    padding: 7px 17px;
+    margin-left: 15px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 15px;
+}
+
+.me{
+    background-color:  rgb(43, 167, 60);
+}
+
+.me .me-profile h6{
+    background-color: #fff;
+    color: rgb(43, 167, 60);
+    width: 120px;
+    margin-left: 120px;
+    margin-top: -20px;
+    padding: 3px 7px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.me .me-profile nav{
+    display: flex;
+    margin-left: 20px;
+}
+
+.me .me-profile nav h1{
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.me .me-profile nav i{
+    color: #fff;
+    margin-top: 45px;
+    margin-left: 120px;
+    font-size: 25px;
+}
+
+.me .me-profile nav img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.tier{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 350px;
+    padding: 20px ;
+    border-radius: 6px;
+}
+
+.tier h6{
+    margin-top: 20px;
+    background-color: #fff;
+    color: rgb(43, 167, 60);
+    width: 130px;
+    padding: 5px 14px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.tier .bank-eye{
+    display: flex;
+}
+
+.tier .bank-eye label{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.tier .bank-eye button{
+    border: none;
+    background: none;
+}
+
+.tier .bank-balance{
+    display: flex;
+    margin-top: 30px;
+}
+
+.tier .bank-balance h1{
+    font-size: 40px;
+}
+
+.tier .bank-balance i{
+    margin-top: 16px;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.sidecheck{
+    margin-left: 20px;
+}
+
+
+.sidecheck .history{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sidecheck .history h3{
+    color: #000;
+    margin-left: 30px;
+}
+
+.sidecheck .history i{
+    color:  rgb(43, 167, 60);
+    font-size: 20px;
+}
+
+.sidecheck .limits aside{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sidecheck .limits aside h3{
+    color: #000;
+    margin-left: 30px;
+}
+
+.sidecheck .limits aside i{
+    color:  rgb(43, 167, 60);
+    font-size: 20px;
+}
+
+.sidecheck .limits p{
+    color: #000;
+    margin-left: 65px;
+    margin-top: 4px;
+}
+
+.sidecheck .pay-me aside{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sidecheck .pay-me aside h3{
+    color: #000;
+    margin-left: 30px;
+}
+
+.sidecheck .pay-me aside i{
+    color:  rgb(43, 167, 60);
+    font-size: 20px;
+}
+
+.sidecheck .pay-me p{
+    color: #000;
+    margin-left: 67px;
+    margin-top: 4px;
+}
+
+.sidecheck .add-pay aside{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sidecheck .add-pay aside h3{
+    color: #000;
+    margin-left: 30px;
+}
+
+.sidecheck .add-pay aside i{
+    color:  rgb(43, 167, 60);
+    font-size: 20px;
+}
+
+.sidecheck .add-pay p{
+    color: #000;
+    margin-left: 67px;
+    margin-top: 4px;
+}
+
+.first-tier h3{
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color:  rgb(43, 167, 60);
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.first-tier .limit{
+    background-color: rgb(183, 252, 151);
+    margin-left: 10px;
+    padding: 10px 20px;
+    width: 370px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.first-tier .limit p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.first-tier .limit p .span-1{
+    margin-left: 100px;
+    color: #000;
+}
+
+.first-tier .limit p .span-2{
+    margin-left: 85px;
+    color: #000;
+}
+
+.upgrade button{
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px 120px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 20px;
+}
+
+.add{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.add .card-nav aside a{
+    padding: 9px 9px;
+    border-radius: 5px;
+}
+
+
+.add .card-nav aside a:hover{
+    background:  rgb(43, 167, 60);
+    transition: .5s;
+}
+
+
+.add .card-nav aside{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.add .card-nav aside h2{
+    color: #000;
+}
+
+.add .card-nav p{
+    color: #000;
+    font-size: 12px;
+    margin-top: 15px;
+} 
+
+.add .card-detail{
+    background: #f3f3f3;
+    padding: 40px 20px;
+    margin-top: 20px;
+    width: 360px;
+    border-radius: 8px;
+}
+
+.add .card-detail .card-no h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.add .card-detail .card-no input{
+    padding: 20px 100px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+.add .card-detail .date{
+    display: flex;
+    margin-top: 20px;
+}
+
+.add .card-detail .date .expiry aside{
+    display: flex;
+    justify-content: space-around;
+}
+
+.add .card-detail .date .expiry h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px ;
+}
+
+.add .card-detail .date .expiry aside input{
+    border: none;
+    padding-top: 35px;
+    width: 70px;
+    border-radius: 8px;
+    color: #000;
+}
+
+.add .card-detail .date .cvv{
+    margin-left: 20px;
+}
+
+.add .card-detail .date .cvv h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px ;
+}
+
+.add .card-detail .date .cvv input{
+    padding: 17px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+.add .pin{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.add .pin h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.add .pin input{
+    padding: 20px 90px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+.add button{
+    margin-top: 50px;
+    margin-left: 55px;
+    padding: 15px 120px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 20px;
+}
+
+.add .card-detail .digit-acc h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.add .card-detail .digit-acc input{
+    padding: 20px 100px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+.add .card-detail .bvn h2{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.add .card-detail .bvn input{
+    padding: 20px 100px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+.setting{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 10px;
+    padding-bottom: 195px;
+}
+
+.setting .all-in{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.setting .flex-me{
+    display: flex;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.setting .flex-me i{
+    font-size: 20px;
+    color: #000;
+    margin-right: 20px;
+}
+
+.setting .flex-me h2{
+    color: #000;
+    font-size: 17px;
+}
+
+.setting .flex-me button{
+    border: none;
+    background: none;
+    margin-left: 120px;
+}
+
+.setting-btn button{
+    margin-top: 70px;
+    margin-left: 160px;
+    border: none;
+}
+
+.setting-btn h2{
+    color: red;
+}
+
+.contain{
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-bottom: 424px;
+
+}
+
+.contain .about i{
+    font-size: 100px;
+    margin-left: 165px;
+    margin-top: 50px;
+    color: #000;
+}
+
+.contain .about h5{
+    margin-top: 20px;
+    margin-left: 117px;
+    font-size: 18px;
+    color: #333;
+}
+
+.contain .about h4{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 20px;
+    color:  rgb(43, 167, 60);
+}
+
+.contain .all-in{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.contain .flex-me{
+    display: flex;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contain .flex-me i{
+    font-size: 20px;
+    color: #000;
+    margin-right: 20px;
+}
+
+.contain .flex-me h2{
+    color: #000;
+    font-size: 17px;
+}
+
+.contain .flex-me button{
+    border: none;
+    background: none;
+    margin-left: 120px;
+}
+
+
+.successful i{
+    color:  rgb(43, 167, 60);
+    font-size: 150px;
+    margin-top: 250px;
+    margin-left: 145px;
+}
+
+.successful p{
+    color: #333;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 172px;
+}
+
+.successful button{
+    margin-top: 20px;
+    border: none;
+    padding: 15px 30px;
+    color: #000;
+    margin-left: 156px;
+}
+
+.cardvp{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.cardvp h1{
+    color: #000;
+    font-size: 33px;
+}
+
+.cardvp h3{
+    color:  rgb(43, 167, 60);
+    margin-left: 250px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.card-pic .only{
+    width: 100px;
+    margin-left: -30px;
+    margin-top: -90px;
+}
+
+.card-pic aside{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.card-pic aside button{
+    border: none;
+    background:none;
+}
+
+.card-pic aside h2{
+    color: #000;
+}
+
+.card-pic aside a{
+    padding: 9px 9px;
+    border-radius: 5px;
+}
+
+
+.card-pic aside a:hover{
+    background:  rgb(43, 167, 60);
+    transition: .5s;
+}
+
+
+.card-pic .merchants{
+    display: flex ;
+    margin-left: 10px;
+    margin-top: -160px;
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    border-radius: 4px;
+}
+
+.card-pic .merchants .one-1 i{
+    color:  rgb(43, 167, 60);
+    font-size: 35px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card-pic .merchants .one-2 h3{
+    color: #000;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.card-pic .merchants .one-2 p{
+    color: #000;
+    margin-left: -178px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.div .merchants{
+    display: flex ;
+    margin-left: 20px;
+    margin-top:  30px;
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    border-radius: 4px;
+}
+
+.div .merchants .one-1 i{
+    color:  rgb(43, 167, 60);
+    font-size: 35px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.div .merchants .one-2 h3{
+    color: #000;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.div .merchants .one-2 p{
+    color: #000;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.div button{
+    margin-top: 50px;
+    margin-left: 68px;
+    padding: 15px 120px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 20px;
+}
+
+.dot .merchants{
+    display: flex ;
+    margin-left: 10px;
+    margin-top:  -110px;
+    background-color: #fff;
+    padding: 10px;
+    width: 380px;
+    border-radius: 4px;
+}
+
+.dot .merchants .one-1 i{
+    color:  rgb(43, 167, 60);
+    font-size: 35px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.dot .merchants .one-2 h3{
+    color: #000;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.dot .merchants .one-2 p{
+    color: #000;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.dot .delivery-1{
+    margin-top: 50px;
+    margin-left: 54px;
+    padding: 20px 100px;
+    border: none;
+    background-color:  rgb(43, 167, 60);
+    border-radius: 20px;
+}
+
+.dot .delivery-2{
+    margin-top: 50px;
+    margin-left: 56px;
+    padding: 18px 70px;
+    border: none;
+    border: 2px solid rgb(43, 167, 60);
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+}

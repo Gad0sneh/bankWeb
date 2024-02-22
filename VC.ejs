@@ -1,0 +1,56 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+
+    <div class="VC">
+        <a href="/login"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h1>sign-up</h1>
+        <p>Enter the OTP we sent to your email</p>
+            <h6>email</h6>
+    </div>
+
+    <div class="container">
+            <div class="input-field">
+                <input type="number" />
+                <input type="number" disabled />
+                <input type="number" disabled />
+                <input type="number" disabled />
+            </div>
+            <a href="/pin"><button class="continue-btn">continue</button></a>
+    </div>
+    <script defer>
+        const input = document.querySelectorAll("input")
+        button =  document.querySelectorAll("button");
+
+        input.forEach((input, index1) => {
+            input.addEventListener("keyup", (e) => {
+                const currentInput = input,
+                nextInput = input.nextElementSibling,
+                prevInput = input.previousElementSlibling;
+
+                if(currentInput.value.lenght > 1) {
+                    currentInput.value = ""
+                    return;
+                }
+
+                if (nextInput && nextInput.hasAttribute("disabled") &&currentInput.value !== "") {
+                    nextInput.removeAttribute("disabled");
+                    nextInput.focus()
+                }
+
+                if(e.key === "Backspace") {
+                    Object.keys(input).forEach((input, index2) => {
+                        if(index1  <= index2 && prevInput) {
+                            input.setAttribute("disabled", true);
+                            currentInput.value = ""
+                            prevInput.focus();
+                        }
+                    })
+                }
+            })
+        })
+
+    </script>
+    
+
+<%- include('users/footer.ejs') %>

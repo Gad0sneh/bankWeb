@@ -1,0 +1,61 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="back">
+        <a href="/profile"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2>Settings</h2>
+    </div>
+
+    <div class="setting">
+        <div class="all-in">
+            <div class="flex-me">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <h2 >Login Settings</h2>
+                <a href="/loginsettings"><button style="margin-left: 150px;"><i  class="fa fa-arrow-right" aria-hidden="true"></a></i></a>
+            </div>
+            <div class="flex-me">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <h2>Payment Settings</h2>
+                <a href="/payment"><button style="margin-left: 128px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i></a>
+            </div>
+            <div class="flex-me">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                <h2>Security Question</h2>
+                <button style="margin-left: 124px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>
+    
+        </div>
+        <div class="all-in">
+            <div class="flex-me">
+                <i class="fa fa-shield" aria-hidden="true"></i>
+                <h2>Saving  Settings</h2>
+                <button style="margin-left: 145px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>
+            <div class="flex-me">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <h2>SMS Alert Subscription</h2>
+                <button style="margin-left: 70px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>
+    
+        </div>
+        <div class="all-in">
+            <div class="flex-me">
+                <i class="fa fa-ban" aria-hidden="true"></i>
+                <h2>Close Account</h2>
+                <a href="/enterpin"><button style="margin-left: 154px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i></a>
+            </div>    
+        </div>
+        <div class="all-in">
+            <div class="flex-me">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>                
+                <h2>About</h2>
+                <a href="/about"><button style="margin-left: 220px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i></a>
+            </div>    
+        </div>
+        <div class="setting-btn">
+            <a href="/logout"><button><h2>Sign Out</h2></button></a>
+        </div>    
+
+    </div>
+
+<%- include('users/footer.ejs') %>

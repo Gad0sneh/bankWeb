@@ -1,0 +1,123 @@
+<%- include('users/headers.ejs') %>
+
+
+    <div class = "timeline">
+        <nav>    
+            <table>
+                <tr>
+                    <td><img src="<%= user.image %>" alt=""></td>
+                </tr>
+            </table>     
+         <h2>Hi, <%= user.name %> </h2>
+         <i class="fa fa-headphones" aria-hidden="true"></i>
+         <i class="fa fa-bell" aria-hidden="true"></i>
+        </nav>
+    </div>
+
+    <div class="transfer">
+        <aside class="bank-eye">
+            <label>Available Balance</label>
+            <button id="toggleBtn"><i  class="fas fa-eye"></i></button>
+        </aside>
+        <aside class="bank-balance">
+            <i class="fa fa-usd" aria-hidden="true"></i>
+            <h1 id= "balance" class="hidden">0.00</h1>
+            <span id="asterisks">****</span>
+            <h4>Transfer History</h4>
+        </aside>
+    </div>
+
+    <div class="bank-withdraw">
+        <aside class="pay">
+            <a href="/transfer-1"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <h6>Transfer</h6>
+        </aside>
+        <aside class="send">
+            <a href="/airtime"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+            <h6>Airtime</h6>
+        </aside>
+        <aside class="remove">
+            <a href="/withdraw"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+            <h6>Withdraw</h6>
+        </aside>
+    </div>
+
+    <div class="block">
+        <div class="bank-links">
+            <aside class="data">
+                <a href="/data"><i class="fa fa-signal" aria-hidden="true"></i></a>
+                <h6>Data</h6>
+            </aside>
+        <aside class="airtime">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <h6>Agent</h6>
+        </aside>
+        <aside class="betting">
+                <i class="fa fa-bars" aria-hidden="true"></i>               
+                <h6>Pay Bills</h6>
+            </aside>    
+            </div>
+            <div class="bank-links-2"> 
+                <aside class="subscribe">
+                    <i class="fa fa-spotify" aria-hidden="true"></i>                    
+                    <h6>Spotify</h6>
+                </aside>
+                <aside class="deals">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <h6>Friends</h6>
+                </aside>
+                <aside class="health">
+                    <i class="fa fa-medkit" aria-hidden="true"></i>
+                    <h6>Health insurance</h6>
+                </aside>
+
+        </div>
+    
+    </div>
+
+
+    <div class="fixed">
+        <aside class="home-2">
+            <a href="/timeline"><button><i class="fa fa-home" aria-hidden="true"></i></button></a>
+            <h6>Home</h6>
+        </aside>
+        <aside class="card-2">
+            <a href="/paycard"><button><i class="fa fa-credit-card-alt" aria-hidden="true"></i></button></a>
+            <h6>Cards</h6>
+        </aside>
+        <aside class="profile-2">
+            <a href="/profile"><button><i class="fa fa-user" aria-hidden="true"></i></button></a>
+            <h6>Me</h6>
+        </aside>
+    </div>
+
+
+     
+
+
+    <script>
+
+        let balanceHidden = true;
+
+        document.getElementById('toggleBtn').addEventListener('click', function() {
+        if (balanceHidden) {
+        document.getElementById('balance').classList.remove('hidden');
+        document.getElementById('asterisks').classList.add('hidden');
+        document.getElementById('toggleBtn').innerHTML = '<i class = "fas fa-eye">';
+        } else {
+        document.getElementById('balance').classList.add('hidden');
+        document.getElementById('asterisks').classList.remove('hidden');
+        document.getElementById('toggleBtn').innerHTML = '<i class = "fas fa-eye-slash">';
+        }
+        balanceHidden = !balanceHidden;
+        });
+
+     </script>
+
+
+
+
+
+
+
+<%- include('users/footer.ejs') %>

@@ -1,0 +1,91 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="back">
+        <a href="/timeline"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2 style="margin-left: 150px;">Daily</h2>
+    </div>
+    <div class="plans">
+        <nav>
+            <ul>
+                <li>
+                    <a href="/data" target="">Hot</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/daily" target="_self">Daily</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/weekly">Weekly</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/monthly">Monthly</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="hot" class="hot">
+            <div class="flex-2">
+                <aside class="two-1">
+                    <h1>100MB</h1>
+                    <P>
+                        1 Day <br>
+                        $ 100
+                    </P>
+                    <h5>$3 OFF</h5>
+                </aside>
+                <aside class="two-1">
+                    <h1>200MB</h1>
+                    <P>
+                        3 Days
+                        $ 200
+                    </P>
+                    <h5>$6 OFF</h5>
+                </aside>
+                <aside class="two-1">
+                    <h1>1GB</h1>
+                    <P>
+                        1 Day
+                        $ 350
+                    </P>
+                    <h5>$10.5 OFF</h5>
+                </aside>
+    
+            </div>
+            <div class="flex-3">
+                <aside class="two-1">
+                    <h1>2.5GB</h1>
+                    <P>
+                        2 Days <br>
+                        $ 600
+                    </P>
+                    <h5>$18 OFF</h5>
+                </aside>
+                <aside class="two-1">
+                    <h1>3GB</h1>
+                    <P>
+                        2 Days
+                        $ 800
+                    </P>
+                    <h5>$24 OFF</h5>
+                </aside>
+                <aside class="two-1">
+                    <h1>400MB</h1>
+                    <P>
+                        3 Days
+                        $ 200
+                    </P>
+                    <h5>$6 OFF</h5>
+                </aside>
+                
+            </div>
+
+    </div>
+
+<%- include('users/footer.ejs') %>

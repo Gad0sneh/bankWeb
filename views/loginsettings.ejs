@@ -1,0 +1,43 @@
+<%- include('users/headers.ejs') %>
+
+<body>
+    <div class="back">
+        <a href="/setting"><button><i class="fa fa-arrow-left" aria-hidden="true"></a></i></button></a>
+        <h2 style="margin-left: 100px;">Login Settings</h2>
+    </div>
+
+    <div style="padding-bottom: 390px;" class="setting">
+        <h2 style="color: black;">Password</h2>
+        <div class="all-in">
+            <div class="flex-me">
+                <h2 >Change Password</h2>
+                <button style="margin-left: 160px;"><i  class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+            <div class="flex-me">
+                <h2>Forgot Password</h2>
+                <a href="/forget"><button style="margin-left: 168px;"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="flex-me">
+                <h2>Remember Password</h2>
+                <button style="margin-left: 133px;"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+
+        </div>
+        <h2 style="color: black; margin-top: 50px;">Pattern</h2>
+        <div class="all-in">
+            <div class="flex-me">
+                <h2>Login With pattern</h2>
+                <button style="margin-left: 160px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>    
+        </div>
+        <h2 style="color: black; margin-top: 50px;">Biometric Login</h2>
+        <div class="all-in">
+            <div class="flex-me">
+                <h2>Login With Face ID or Fingerprint</h2>
+                <button style="margin-left: 40px;"><i class="fa fa-arrow-right" aria-hidden="true"></a></i>
+            </div>    
+        </div>
+
+    </div>  
+
+<%- include('users/footer.ejs') %>
